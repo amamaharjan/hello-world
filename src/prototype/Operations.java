@@ -11,8 +11,8 @@ import javax.swing.DefaultComboBoxModel;
 public class Operations {
 
     DBConnect dbConnect = new DBConnect();
-    Statement st = null;
-    ResultSet rs = null;
+    Statement st;
+    ResultSet rs;
     
     
     public DefaultComboBoxModel getList(String value){
